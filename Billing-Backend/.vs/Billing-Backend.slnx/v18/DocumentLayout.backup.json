@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\dto\\billsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\dto\\billsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\controllers\\billingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\billing-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\billing-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\dto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\dto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\dto\\billitementrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\dto\\billitementrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\entity\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\entity\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\entity\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\entity\\billitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\entity\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\entity\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\dto\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\migrations\\20260516164914_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\migrations\\20260516164914_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|c:\\users\\admin\\source\\repos\\billing-backend\\billing-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4AC4CA3-7424-5301-F51E-4ECB83DE0D88}|Billing-Backend\\Billing-Backend.csproj|solutionrelative:billing-backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PdfService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\PdfService.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Services\\PdfService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\PdfService.cs",
+              "RelativeToolTip": "Billing-Backend\\Services\\PdfService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:30:51.292Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillSearchDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillSearchDto.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Dto\\BillSearchDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillSearchDto.cs",
+              "RelativeToolTip": "Billing-Backend\\Dto\\BillSearchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T16:35:22.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BillDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillDto.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Dto\\BillDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillDto.cs",
+              "RelativeToolTip": "Billing-Backend\\Dto\\BillDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:56:01.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillingController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\BillingController.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Controllers\\BillingController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\BillingController.cs",
+              "RelativeToolTip": "Billing-Backend\\Controllers\\BillingController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:05:50.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Billing-Backend\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T14:40:27.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Program.cs",
+              "RelativeToolTip": "Billing-Backend\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:37:33.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Billing-Backend.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Billing-Backend.csproj",
+              "RelativeDocumentMoniker": "Billing-Backend\\Billing-Backend.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Billing-Backend.csproj",
+              "RelativeToolTip": "Billing-Backend\\Billing-Backend.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-19T15:59:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\BillService.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Services\\BillService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\BillService.cs",
+              "RelativeToolTip": "Billing-Backend\\Services\\BillService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:42:36.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Billing-Backend\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:06:30.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\ItemService.cs",
+              "RelativeToolTip": "Billing-Backend\\Services\\ItemService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T14:41:36.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BillItemEntryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillItemEntryDto.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Dto\\BillItemEntryDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\BillItemEntryDto.cs",
+              "RelativeToolTip": "Billing-Backend\\Dto\\BillItemEntryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:37:54.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Customer.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Entity\\Customer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Customer.cs",
+              "RelativeToolTip": "Billing-Backend\\Entity\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:06:58.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Bill.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Entity\\Bill.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Bill.cs",
+              "RelativeToolTip": "Billing-Backend\\Entity\\Bill.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:14:54.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BillItem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\BillItem.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Entity\\BillItem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\BillItem.cs",
+              "RelativeToolTip": "Billing-Backend\\Entity\\BillItem.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:16:08.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Item.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Entity\\Item.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Entity\\Item.cs",
+              "RelativeToolTip": "Billing-Backend\\Entity\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:15:17.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\ItemDto.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Dto\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\ItemDto.cs",
+              "RelativeToolTip": "Billing-Backend\\Dto\\ItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T14:43:59.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Billing-Backend\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:52:42.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Billing-Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\appsettings.json",
+              "RelativeToolTip": "Billing-Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-16T16:32:54.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260516164914_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Migrations\\20260516164914_Initial.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Migrations\\20260516164914_Initial.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Migrations\\20260516164914_Initial.cs",
+              "RelativeToolTip": "Billing-Backend\\Migrations\\20260516164914_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:49:14.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Dto\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Dto\\CustomerDto.cs",
+              "RelativeToolTip": "Billing-Backend\\Dto\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:56:22.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Billing-Backend\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Billing-Backend\\Billing-Backend\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Billing-Backend\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T16:36:33.409Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

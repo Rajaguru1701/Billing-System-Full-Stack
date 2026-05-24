@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "Billing_Backend.Controllers.BillingController",
+    "Method": "DownloadInvoicePdf",
+    "RelativePath": "api/Billing/download-pdf/{billId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.BillingController",
+    "Method": "GetBillHistory",
+    "RelativePath": "api/Billing/history",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchParams",
+        "Type": "Billing_Backend.Dto.BillSearchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.BillingController",
+    "Method": "SaveBill",
+    "RelativePath": "api/Billing/save-bill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billDto",
+        "Type": "Billing_Backend.Dto.BillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.CustomerController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/Customer/get-customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.CustomerController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Customer/save-customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Billing_Backend.Dto.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.ItemController",
+    "Method": "GetItems",
+    "RelativePath": "api/Item/get-items",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Billing_Backend.Controllers.ItemController",
+    "Method": "CreateItem",
+    "RelativePath": "api/Item/save-item",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemDto",
+        "Type": "Billing_Backend.Dto.ItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
