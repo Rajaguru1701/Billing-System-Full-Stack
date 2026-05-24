@@ -1,0 +1,217 @@
+/* Base Container Wrapping Layout */
+.history-wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Header Text Theme Styling */
+.title-text {
+  color: #ffffff !important;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.subtitle-text {
+  color: #a0aec0;
+  font-size: 0.95rem;
+}
+
+/* 🛡️ THE FIX: Rigid control over card container backgrounds */
+.search-filter-card {
+  background-color: #1e293b !important; /* Dark Slate Gray Card Background */
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* Form inputs configuration layout grid */
+.filter-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Forms sit next to each other cleanly */
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .filter-grid-layout {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
+}
+@media (max-width: 576px) {
+  .filter-grid-layout {
+    grid-template-columns: 1fr; /* 1 column on phones */
+  }
+}
+
+.input-group-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Clear, highly readable label fields above inputs */
+.custom-field-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #94a3b8 !important; /* Cool gray color text */
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-bottom: 8px;
+}
+
+/* Modern Inputs that match dark designs perfectly */
+.custom-form-input {
+  background-color: #0f172a !important; /* Deep dark background */
+  border: 1px solid #475569 !important;
+  color: #ffffff !important; /* Pure white crisp user text */
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.custom-form-input::placeholder {
+  color: #64748b;
+}
+
+.custom-form-input:focus {
+  outline: none;
+  border-color: #38bdf8 !important; /* Soft blue highlight focus glow */
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+/* Calendar icon fixes for date picks inside dark browsers */
+.date-picker-input::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Forces calendar dropdown arrow white so you can click it easily */
+  cursor: pointer;
+}
+
+/* Action Button Grid Rules Block */
+.filter-actions-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  border-top: 1px solid #334155;
+  padding-top: 16px;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.btn-search {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+.btn-search:hover {
+  background-color: #0369a1;
+}
+
+.btn-clear {
+  background-color: #475569;
+  color: #cbd5e1;
+}
+.btn-clear:hover {
+  background-color: #334155;
+}
+
+/* Data Table Panel Styling */
+.data-table-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.custom-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.custom-history-table th {
+  background-color: #0f172a; /* Solid blackish-blue tracking headers */
+  color: #f8fafc;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 14px 18px;
+}
+
+.custom-history-table td {
+  padding: 14px 18px;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #334155;
+}
+
+/* Interactive Hover Row Effects */
+.data-row:hover {
+  background-color: #24334d; /* Soft premium navy row highlights */
+}
+
+/* Layout helpers & Badge Elements */
+.short-id-badge {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #334155;
+  color: #e2e8f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.client-name-cell {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.numeric-cell {
+  font-family: Arial, sans-serif;
+}
+
+.total-highlight {
+  color: #4ade80 !important; /* Premium Indian Rupee green totals color */
+  font-weight: 700;
+}
+
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+/* Download PDF Action Button Design styling hook */
+.download-action-btn {
+  background: transparent;
+  border: 1px solid #f87171;
+  color: #f87171;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.download-action-btn:hover {
+  background-color: #f87171;
+  color: #ffffff;
+}
+
+/* Empty State Handling container block adjustments */
+.empty-state-row {
+  background-color: #172033;
+}
+.empty-box-message {
+  text-align: center;
+  padding: 40px;
+  color: #94a3b8;
+  font-size: 1rem;
+}

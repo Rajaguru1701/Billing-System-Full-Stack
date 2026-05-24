@@ -1,0 +1,79 @@
+<div class="history-wrapper mt-4">
+  <div class="dashboard-header mb-4">
+    <h2 class="title-text">📦 Invoice Management History</h2>
+    <p class="subtitle-text">Search, track, and reprint customer receipts seamlessly</p>
+  </div>
+
+  <div class="search-filter-card mb-4 shadow">
+    <div class="filter-grid-layout">
+      
+      <div class="input-group-box">
+        <label class="custom-field-label">Customer Name</label>
+        <div class="input-with-icon">
+          <input type="text" class="custom-form-input" [(ngModel)]="filters.customerName" placeholder="e.g. John Doe">
+        </div>
+      </div>
+
+      <div class="input-group-box">
+        <label class="custom-field-label">Phone Number</label>
+        <input type="text" class="custom-form-input" [(ngModel)]="filters.phoneNo" placeholder="e.g. 9876543210">
+      </div>
+
+      <div class="input-group-box">
+        <label class="custom-field-label">From Date</label>
+        <input type="date" class="custom-form-input date-picker-input" [(ngModel)]="filters.fromDate">
+      </div>
+
+      <div class="input-group-box">
+        <label class="custom-field-label">To Date</label>
+        <input type="date" class="custom-form-input date-picker-input" [(ngModel)]="filters.toDate">
+      </div>
+
+    </div>
+
+    <div class="filter-actions-row">
+      <button class="action-btn btn-search" (click)="loadHistory()">🔍 Filter Records</button>
+      <button class="action-btn btn-clear" (click)="resetFilters()">🔄 Reset Filters</button>
+    </div>
+  </div>
+
+  <div class="data-table-card shadow">
+    <div class="table-responsive">
+      <table class="custom-history-table">
+        <thead>
+          <tr>
+            <th>Invoice Date</th>
+            <th>Bill ID (Short)</th>
+            <th>Client Name</th>
+            <th>Phone Number</th>
+            <th class="text-right">Tax Amount</th>
+            <th class="text-right">Grand Total</th>
+            <th class="text-center">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let invoice of invoiceList" class="data-row">
+            <td>{{ invoice.billDate | date:'dd-MMM-yyyy HH:mm' }}</td>
+            <td><span class="short-id-badge">{{ invoice.billId.substring(0,8).toUpperCase() }}</span></td>
+            <td class="client-name-cell">{{ invoice.customerName }}</td>
+            <td>{{ invoice.customerPhone }}</td>
+            <td class="text-right numeric-cell">{{ invoice.gstAmount | number:'1.2-2' }}</td>
+            <td class="text-right numeric-cell total-highlight">{{ invoice.totalAmount | number:'1.2-2' }}</td>
+            <td class="text-center">
+              <button class="download-action-btn" (click)="downloadPdf(invoice.billId)">
+                📥 Download PDF
+              </button>
+            </td>
+          </tr>
+          <tr *ngIf="invoiceList.length === 0">
+            <td colspan="7" class="empty-state-row">
+              <div class="empty-box-message">
+                💨 No invoices match your active filtering conditions.
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="toast-wrapper">
+  <div *ngIf="successMessage" class="toast-card success">
+    <div class="toast-icon">✨</div>
+    <div class="toast-body">
+      <span class="toast-title">Inventory Updated</span>
+      <p class="toast-msg">{{ successMessage }}</p>
+    </div>
+    <button type="button" class="toast-close" (click)="clearAlerts()">×</button>
+    <div class="progress-bar"></div>
+  </div>
+
+  <div *ngIf="errorMessage" class="toast-card error">
+    <div class="toast-icon">⚠️</div>
+    <div class="toast-body">
+      <span class="toast-title">System Error</span>
+      <p class="toast-msg">{{ errorMessage }}</p>
+    </div>
+    <button type="button" class="toast-close" (click)="clearAlerts()">×</button>
+    <div class="progress-bar"></div>
+  </div>
+</div>
+
+<div class="form-container">
+  <form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+    
+    <div class="brand-section">
+      <h2>Product<br>Catalog</h2>
+      <p>Register inventory stock details, pricing parameters, and SKU configurations here.</p>
+    </div>
+
+    <div class="fields-section">
+      
+      <div class="form-group">
+        <label>Item Name</label>
+        <input formControlName="itemName" placeholder="" />x
+        <div *ngIf="itemForm.get('itemName')?.invalid && (itemForm.get('itemName')?.touched || itemForm.get('itemName')?.dirty)" class="error-message">
+          <small>A valid item designation name is required.</small>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Unit Price ($)</label>
+        <input formControlName="unitPrice" type="text" placeholder="" />
+        <div *ngIf="itemForm.get('unitPrice')?.invalid && (itemForm.get('unitPrice')?.touched || itemForm.get('unitPrice')?.dirty)" class="error-message">
+          <small>Please supply a valid numeric price value greater than 0.</small>
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="itemForm.invalid" class="btn-submit">Save Item Details</button>
+    </div>
+
+  </form>
+</div>

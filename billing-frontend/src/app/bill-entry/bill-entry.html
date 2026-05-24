@@ -1,0 +1,103 @@
+<div class="invoice-container">
+  <form [formGroup]="billForm" (ngSubmit)="onSubmitBill()">
+    
+    <div class="glass-card customer-panel">
+      <h3>👤 Client Details</h3>
+      <div class="customer-row">
+        <div class="form-group">
+          <label>Select Customer</label>
+          <select formControlName="customerId" (change)="onCustomerSelect($event)">
+            <option value="" disabled selected>Choose profile</option>
+            <option *ngFor="let c of customers" [value]="c.customerId">{{ c.name }}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Phone Line</label>
+          <input formControlName="phoneNo" placeholder="Patched data" />
+        </div>
+        <div class="form-group">
+          <label>Shipping Address</label>
+          <input formControlName="address" placeholder="Patched address index" />
+        </div>
+      </div>
+    </div>
+
+    <div class="glass-card items-panel">
+      <div class="panel-header">
+        <h3>📦 Invoice Items</h3>
+        <button type="button" class="btn-add-row" (click)="addItemRow()">➕ Add Item Row</button>
+      </div>
+
+      <div formArrayName="itemsArray" class="items-table">
+        <div class="table-header">
+          <div>Product / Item</div>
+          <div>Unit Price</div>
+          <div>Quantity</div>
+          <div>Total Amnt</div>
+          <div>Action</div>
+        </div>
+
+        <div *ngFor="let row of itemsFormArray.controls; let i=index" [formGroupName]="i" class="table-row animate-fade">
+          
+          <div>
+            <select formControlName="itemId" (change)="onItemSelect($event, i)">
+              <option value="" disabled selected>Select Product SKU</option>
+              <option *ngFor="let item of items" [value]="item.itemId">{{ item.itemName }}</option>
+            </select>
+          </div>
+
+          <div>
+            <input formControlName="unitPrice" type="number" class="text-right" />
+          </div>
+
+          <div>
+            <input formControlName="quantity" type="number" min="1" class="text-center" />
+          </div>
+
+          <div>
+            <input formControlName="totalAmount" type="number" class="text-right bold-text" />
+          </div>
+
+          <div class="text-center">
+            <button type="button" class="btn-remove-row" [disabled]="itemsFormArray.length === 1" (click)="removeItemRow(i)">🗑️</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-wrapper">
+      <div class="glass-card summary-panel">
+        <div class="summary-row">
+          <span>Sub Total:</span>
+          <input formControlName="subTotal" class="summary-box" />
+        </div>
+        <div class="summary-row">
+          <span>GST Tax (%):</span>
+          <input formControlName="gstPercent" type="number" class="summary-box selectable-box" />
+        </div>
+        <div class="summary-row total-highlight">
+          <span class="sky-text">Grand Total:</span>
+          <input formControlName="grandTotal" class="summary-box grand-total-box" />
+        </div>
+
+        <div class="utility-actions-grid">
+          <button type="button" class="btn-utility btn-pdf" [disabled]="billForm.invalid" (click)="onDownloadPDF()">
+            📄 Download PDF
+          </button>
+          <button type="button" class="btn-utility btn-clear" (click)="onClearForm()">
+            🧹 Clear Form
+          </button>
+        </div>
+        <button type="submit" [disabled]="billForm.invalid" (click)="onSubmitBill()" class="btn-finalize">⚡ Finalize Bill</button>
+      </div>
+    </div>
+
+  </form>
+</div>
+
+<div class="toast-wrapper" *ngIf="successMessage || errorMessage">
+  <div [class]="successMessage ? 'toast success' : 'toast error'">
+    {{ successMessage || errorMessage }}
+  </div>
+</div>

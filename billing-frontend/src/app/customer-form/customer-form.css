@@ -1,0 +1,232 @@
+/* Container layout to handle background centering */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, #1e1b4b, #0f172a); /* Deep premium dark theme */
+  padding: 20px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Modern Glassmorphic Form Card Layout */
+form, .form-card {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr; /* Creates a clean balance between text and fields on desktop */
+  gap: 30px;
+  width: 100%;
+  max-width: 750px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Left panel branding title segment */
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding-right: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  background: linear-gradient(to right, #ffffff, #93c5fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-section p {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Right side content blocks containing the form controls */
+.fields-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+label {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Semi-transparent input boxes to blend with background colors smoothly */
+input, textarea, .form-control {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+}
+
+/* Glow focus states */
+input:focus, textarea:focus, .form-control:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #38bdf8; /* Vibrant Sky Blue */
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15);
+}
+
+textarea {
+  resize: none;
+  min-height: 70px;
+}
+
+/* High-contrast CTA Submit Action Button */
+button, .btn-submit {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;               /* Dark contrast text over bright background color */
+  background: #38bdf8;          /* Bright high contrast primary blue */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.25);
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+button:hover, .btn-submit:hover {
+  background: #7dd3fc;
+  transform: translateY(-1px);
+}
+
+button:active, .btn-submit:active {
+  transform: translateY(1px);
+}
+
+/* Block processing configurations when fields fail client validation */
+button:disabled, .btn-submit:disabled {
+  background: #334155;
+  color: #64748b;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ========================================== */
+/* 👇 MOBILE & TABLET RESPONSIVE BREAKPOINT 👇 */
+/* ========================================== */
+@media (max-width: 768px) {
+  form, .form-card {
+    grid-template-columns: 1fr; /* Switch from 2 columns to 1 stacked column */
+    gap: 24px;
+    padding: 24px;   /* Slightly smaller padding to save screen space */
+    border-radius: 16px;
+  }
+
+  .brand-section {
+    border-right: none;         /* Remove vertical line */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Add subtle horizontal line instead */
+    padding-right: 0;
+    padding-bottom: 20px;       /* Spacing above fields section */
+    text-align: center;         /* Centers headings cleanly on small viewports */
+  }
+
+  h2 {
+    font-size: 24px;            /* Scale down title slightly for small screens */
+  }
+  
+  button, .btn-submit {
+    padding: 16px;              /* Make the button slightly chunkier on mobile for easier finger tapping */
+  }
+}
+
+
+
+
+
+
+/* Sleek minimal strip */
+.inline-accent-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  animation: fadeInHeight 0.25s ease-out forwards;
+}
+
+.status-text {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Live dynamic pulse dot indicator instead of a button */
+.pulse-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.pulse-indicator::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Success Conditional Profiles */
+.status-success {
+  border-left: 3px solid #34d399;
+  color: #cbd5e1;
+}
+.status-success .pulse-indicator, .status-success .pulse-indicator::after { background: #34d399; }
+
+/* Error Conditional Profiles */
+.status-error {
+  border-left: 3px solid #f87171;
+  color: #cbd5e1;
+}
+.status-error .pulse-indicator, .status-error .pulse-indicator::after { background: #f87171; }
+
+@keyframes ping {
+  75%, 100% { transform: scale(3); opacity: 0; }
+}
+
+@keyframes fadeInHeight {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
